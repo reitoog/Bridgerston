@@ -29,14 +29,15 @@ Vamos a realizar una versión que tiene algunas particularidades respecto al jue
 
 
 ## Librerías empleadas 
-   numpy
+   numpy  (https://numpy.org/)
 
 ## Scripts empleados 
-    Los scripts empleados son los siguientes
-        **config**: donde se han puesto las variables globales empleadas 
-        **The_body**: que es el script principal 
-        **Disparo_jug1**: Donde se muestra la lógica aplicada en la realizacion de cada uno de los disparo efectuados por el jugador 1  y como afecta a cada uno de los tableros involucrados
-        **Disparo_jug2**: Donde se muestra la lógica aplicada en la realizacion de cada uno de los disparo efectuados por el jugador 2  y como afecta a cada uno de los tableros involucrados
-        **Marcador**: Regula el tanteo del juego y cuando este se acaba porque uno de los 2 jugadores ha ganado
-        **Posicionar_barcos_tableros1_2**: En este script se describe la manera elegida para posicionar de manera aleatoria los barcos de jugador 1 y jugador 2
+Los scripts empleados son los siguientes:
+
+- **config**: donde se han puesto las variables globales empleadas
+- **The_body**: que es el script principal
+- **Disparo_jug1**: Donde se muestra la lógica aplicada en la realizacion de cada uno de los disparo efectuados por el jugador 1  y como afecta a cada uno de los tableros involucrados
+- **Disparo_jug2**: Donde se muestra la lógica aplicada en la realizacion de cada uno de los disparo efectuados por el jugador 2  y como afecta a cada uno de los tableros involucrados
+- **Marcador**: Regula el tanteo del juego y cuando este se acaba porque uno de los 2 jugadores ha ganado
+- **Posicionar_barcos_tableros1_2**: En este script se describe la manera elegida para posicionar de manera aleatoria los barcos de jugador 1 y jugador 2
 
