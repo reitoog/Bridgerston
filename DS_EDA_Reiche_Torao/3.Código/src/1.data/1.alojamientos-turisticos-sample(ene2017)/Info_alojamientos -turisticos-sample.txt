@@ -1,0 +1,90 @@
+info: https://datamarket.es/#alojamientos-turisticos-dataset
+      https://www.kaggle.com/datasets/datamarket/alojamientos-tursticos
+
+Leyenda:
+
++-------------------------------+-----------------------------------------------------------------------------------------------------------------+
+|        Campo                  |                               Descripción                                                                        |
++-------------------------------+-----------------------------------------------------------------------------------------------------------------+
+| exposure                      |                                                                                                                 |
+| accommodates                  | Capacidad del apartamento (en personas).                                                                      |
+| text_fields                   |                                                                                                                 |
+| amenities_list                | Lista de comodidades que presenta el alojamiento turístico.                                                    |
+| exposure                      |                                                                                                                 |
+| apartment_id                  | Identificación del alojamiento turístico.                                                                     |
+| exposure                      |                                                                                                                 |
+| availability_30               | Número de días disponibles del alojamiento turístico en un plazo de 30 días (desde la fecha de extracción).   |
+| exposure                      |                                                                                                                 |
+| availability_365              | Número de días disponibles del alojamiento turístico en un plazo de 365 días (desde la fecha de extracción).  |
+| exposure                      |                                                                                                                 |
+| availability_60               | Número de días disponibles del alojamiento turístico en un plazo de 60 días (desde la fecha de extracción).   |
+| exposure                      |                                                                                                                 |
+| availability_90               | Número de días disponibles del alojamiento turístico en un plazo de 90 días (desde la fecha de extracción).   |
+| exposure                      |                                                                                                                 |
+| bathrooms                     | Número de cuartos de baño disponibles en el alojamiento turístico.                                            |
+| exposure                      |                                                                                                                 |
+| bedrooms                      | Número de habitaciones disponibles en el alojamiento turístico.                                               |
+| exposure                      |                                                                                                                 |
+| beds                          | Cantidad de camas disponibles en el alojamiento turístico.                                                     |
+| text_fields                   |                                                                                                                 |
+| city                          | Ciudad en la que se encuentra el alojamiento turístico.                                                        |
+| text_fields                   |                                                                                                                 |
+| country                       | País en el que se encuentra el alojamiento turístico.                                                           |
+| text_fields                   |                                                                                                                 |
+| description                   | Descripción detallada del alojamiento turístico.                                                               |
+| date_range                    |                                                                                                                 |
+| first_review_date             | Fecha del primer comentario del alojamiento turístico.                                                         |
+| done                          |                                                                                                                 |
+| has_availability              | Disponibilidad para reservar el alojamiento turístico.                                                          |
+| exposure                      |                                                                                                                 |
+| host_id                       | Número de identificación de la persona que pone a disposición un apartamento turístico.                    |
+| date_range                    |                                                                                                                 |
+| insert_date                   | Fecha de extracción de la información.                                                                         |
+| done                          |                                                                                                                 |
+| is_instant_bookable           | Si puede reservarse sin necesidad de revisión por parte del propietario.                                       |
+| date_range                    |                                                                                                                 |
+| last_review_date              | Fecha del último comentario del alojamiento turístico.                                                         |
+| location_on                   |                                                                                                                 |
+| latitude                      | Latitud en la que se encuentra el alojamiento turístico.                                                        |
+| text_fields                   |                                                                                                                 |
+| license                       | Tipo de licencia que posee el alojamiento turístico.                                                           |
+| location_on                   |                                                                                                                 |
+| longitude                     | Longitud en la que se encuentra el alojamiento turístico.                                                       |
+| exposure                      |                                                                                                                 |
+| maximum_nights                | Número de noches máximas permitidas en el alojamiento turístico.                                              |
+| exposure                      |                                                                                                                 |
+| minimum_nights                | Número de noches mínimas a alquilar del alojamiento turístico.                                                 |
+| text_fields                   |                                                                                                                 |
+| name                          | Nombre del alojamiento turístico.                                                                              |
+| text_fields                   |                                                                                                                 |
+| neighborhood_district         | Nombre del distrito donde se encuentra un alojamiento turístico.                                                |
+| text_fields                   |                                                                                                                 |
+| neighborhood_name             | Nombre del barrio donde se encuentra el alojamiento turístico.                                                  |
+| text_fields                   |                                                                                                                 |
+| neighborhood_overview         | Información sobre la zona donde se encuentra el alojamiento turístico.                                          |
+| exposure                      |                                                                                                                 |
+| number_of_reviews             | Número de comentarios que tiene el alojamiento turístico.                                                      |
+| calculate                     |                                                                                                                 |
+| price                         | Precio del alojamiento turístico en euros.                                                                     |
+| exposure                      |                                                                                                                 |
+| review_scores_accuracy        | Puntuación de 0 a 10 sobre la precisión de los detalles del alojamiento turístico.                            |
+| exposure                      |                                                                                                                 |
+| review_scores_checkin         | Puntuación de 0 a 10 sobre el momento de entrada al alojamiento turístico.                                      |
+| exposure                      |                                                                                                                 |
+| review_scores_cleanliness     | Puntuación de 0 a 10 sobre las condiciones higiénicas del alojamiento turístico.                               |
+| exposure                      |                                                                                                                 |
+| review_scores_communication   | Puntuación de 0 a 10 sobre la comunicación del propietario con los usuarios del alojamiento turístico.         |
+| exposure                      |                                                                                                                 |
+| review_scores_location        | Puntuación de 0 a 10 sobre la zona donde se encuentra el alojamiento turístico.                                 |
+| exposure                      |                                                                                                                 |
+| review_scores_rating          | Puntuación de 0 a 100 dada por los usuarios del alojamiento turístico.                                         |
+| exposure                      |                                                                                                                 |
+| review_scores_value           | Puntuación de 0 a 10 sobre la evaluación del alojamiento turístico.                                             |
+| calculate                     |                                                                                                                 |
+| reviews_per_month             | Número de comentarios que recibe el alojamiento turístico al mes.                                              |
+| text_fields                   |                                                                                                                 |
+| room_type                     | Tipo de alojamiento turístico.                                                                                 |
+| text_fields                   |                                                                                                                 |
+| url                           | Url del alojamiento turístico en alquiler.                                                                     |
++-------------------------------+-----------------------------------------------------------------------------------------------------------------+
+

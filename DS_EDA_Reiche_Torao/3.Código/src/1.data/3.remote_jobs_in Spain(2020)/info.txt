@@ -1,0 +1,54 @@
+info : Digital Nomads
+https://www.kaggle.com/datasets/danielhain/digital-nomads
+
++------------------------+----------------------------------------------------------------------------------------------------------------------+
+| Campo                  | Descripción                                                                                                          |
++------------------------+----------------------------------------------------------------------------------------------------------------------+
+| Unnamed: 0             | Índice numérico de las filas. Generalmente es un número entero que comienza en 0.                                   |
+| coffee_in_cafe         | Precio promedio de un café en un café local. Los valores generalmente varían dependiendo del costo de vida de la ciudad. |
+| cost_beer              | Precio promedio de una cerveza. Los valores pueden variar según el costo local y los impuestos.                      |
+| cost_coworking         | Costo promedio mensual de un espacio de coworking, reflejando el costo de vida y el mercado inmobiliario local.        |
+| cost_expat             | Estimación del costo de vida mensual para un expatriado. Depende del nivel de vida y precios locales.                 |
+| cost_nomad             | Estimación del costo de vida mensual para un nómada digital, que puede ser diferente al de un expatriado permanente.  |
+| female_friendly        | Calificación de amigabilidad hacia las mujeres, posiblemente en una escala de 0 a 1, donde 1 es más amigable.        |
+| fragile_states_index   | Índice que mide la estabilidad y presión en un estado. Un número más alto indica más fragilidad.                    |
+| free_wifi_available    | Disponibilidad de WiFi gratuito, posiblemente en una escala de 0 a 1, donde 1 indica mayor disponibilidad.           |
+| freedom_score          | Puntuación de la libertad personal y civil, probablemente en una escala de 0 a 1.                                    |
+| friendly_to_foreigners | Medida de amabilidad hacia los extranjeros, posiblemente en una escala de 0 a 1.                                     |
+| internet_speed         | Velocidad promedio de Internet en Mbps.                                                                              |
+| latitude               | Latitud geográfica de la ciudad.                                                                                     |
+| leisure                | Calidad de las actividades de ocio, posiblemente calificada en una escala de 0 a 1.                                 |
+| lgbt_friendly          | Amigabilidad hacia la comunidad LGBT, posiblemente en una escala de 0 a 1.                                            |
+| life_score             | Calificación general de la calidad de vida, posiblemente en una escala de 0 a 1.                                    |
+| longitude              | Longitud geográfica de la ciudad.                                                                                    |
+| nightlife              | Calidad de la vida nocturna, posiblemente en una escala de 0 a 1.                                                     |
+| nomadScore             | Puntuación general para nómadas digitales, posiblemente en una escala de 0 a 1.                                     |
+| nomad_score            | Similar a "nomadScore", otra puntuación para nómadas digitales.                                                       |
+| peace_score            | Puntuación de la paz, posiblemente en una escala de 0 a 1.                                                             |
+| place                  | Nombre de la ciudad o lugar.                                                                                         |
+| places_to_work         | Calidad y cantidad de lugares de trabajo, posiblemente calificado en una escala de 0 a 1.                            |
+| press_freedom_index    | Índice de libertad de prensa, con números más altos indicando mayor libertad.                                         |
+| racism                 | Evaluación de la prevalencia del racismo, posiblemente en una escala de 0 a 1, donde 1 indica más racismo.            |
+| safety                 | Medida de la seguridad, posiblemente en una escala de 0 a 1, donde 1 es más seguro.                                |
+| weed                   | Legalidad y disponibilidad de la marihuana, donde 0 puede indicar ilegalidad y 1 legalidad.                          |
++------------------------+----------------------------------------------------------------------------------------------------------------------+
+
+
+info:Remote jobs in Spain 
+https://www.kaggle.com/datasets/thedevastator/remote-jobs-in-spain
+
++-----------------+---------------------------------------------------------------------+
+| Campo           | Descripción                                                         |
++-----------------+---------------------------------------------------------------------+
+| price_start     | El salario mínimo ofrecido para el trabajo. (Entero)                |
+| price_end       | El salario máximo ofrecido para el trabajo. (Entero)                |
+| price_interval  | El intervalo salarial ofrecido para el trabajo. (Cadena de texto)   |
+| price_currency  | La moneda en la que se ofrece el salario. (Cadena de texto)         |
+| description     | Una descripción detallada del trabajo. (Cadena de texto)           |
+| date            | La fecha en que se publicó el trabajo. (Fecha)                      |
+| expertise       | La experiencia requerida para el trabajo. (Cadena de texto)        |
+| type            | El tipo de trabajo. (Cadena de texto)                               |
+| functions       | Las funciones y responsabilidades asociadas con el trabajo. (Cadena de texto) |
+| sectors         | El sector en el que se encuentra el trabajo. (Cadena de texto)      |
+| portal          | El portal desde el cual se publicó el trabajo. (Cadena de texto)    |
++-----------------+---------------------------------------------------------------------+
